@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Assesment</title>
+  </style>
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+	<img src="signup2.png"><br><br>
+  <div id="clickme"><button>
+  Click here for Jquery Toggle
+</div></button>
+<img id="book" src="Jquery-Test.jpg" alt="" width="70%" height="70%"><br><br><img src="signup.png" width="40%" height="40%">
+
+<script>
+$( "#clickme" ).click(function() {
+  $( "#book" ).slideToggle( "slow", function() {
+    // Animation complete.
+  });
+});
+</script>
+ 
+</body>
+</html>
